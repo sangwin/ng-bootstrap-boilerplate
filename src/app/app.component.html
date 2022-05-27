@@ -1,0 +1,89 @@
+<!-- <router-outlet></router-outlet> -->
+<div class="container">
+  <br />
+  <h1>NGB Accordion</h1>
+  <br />
+  <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+    <ngb-panel title="Simple">
+      <ng-template ngbPanelContent> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+        proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+        synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span>&#9733; <b>Fancy</b> title &#9733;</span>
+      </ng-template>
+      <ng-template ngbPanelContent> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+        proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+        synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </ng-template>
+    </ngb-panel>
+    <ngb-panel title="Disabled" [disabled]="true">
+      <ng-template ngbPanelContent> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+        proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+        synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+  <hr />
+  <br />
+  <h1>GRID</h1>
+  <br />
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col"> One of three columns </div>
+      <div class="col"> One of three columns </div>
+      <div class="col"> One of three columns </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col"> One of three columns </div>
+      <div class="col"> One of three columns </div>
+      <div class="col"> One of three columns </div>
+    </div>
+    <div class="row align-items-end">
+      <div class="col"> One of three columns </div>
+      <div class="col"> One of three columns </div>
+      <div class="col"> One of three columns </div>
+    </div>
+  </div>
+  <hr />
+  <br />
+  <h1>Table</h1>
+  <br />
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
